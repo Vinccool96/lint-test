@@ -36,7 +36,7 @@ jobs:
       - name: Set up Ruby (Org API)
         uses: ruby/setup-ruby@v1.101.0
       - name: Run rubocop
-        uses: Vinccool96/rubocop-linter@v1
+        uses: Vinccool96/rubocop-linter@feature/migrate_to_node
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.0.0
         with:
